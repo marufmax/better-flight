@@ -17,3 +17,10 @@ I just added some batteries for friendly developer experience.
 - [ ] Always returning JSON 
 - [ ] Friendly HTTP requesting library (Maybe ZHTTP)
 - [ ] Unit Testing 
+
+#### Container
+
+I will stick with Aura.DI because of lightweight and performance. [Source][https://www.sitepoint.com/php-dependency-injection-container-performance-benchmarks/]
+
+
+[https://www.sitepoint.com/php-dependency-injection-container-performance-benchmarks/]: https://www.sitepoint.com/php-dependency-injection-container-performance-benchmarks/
