@@ -10,11 +10,11 @@ return [
      * default database config
      */
     'db.default' => [
-        'host'    => env('DB_HOST', 'localhost'),
-        'port'    => env('DB_PORT', 3306),
-        'user'    => env('DB_USERNAME', 'root'),
-        'pass'    => env('DB_PASSWORD', 'root'),
-        'name'    => env('DB_DATABASE', 'better-flight'),
+        'host'    => getenv('DB_HOST', 'localhost'),
+        'port'    => getenv('DB_PORT', 3306),
+        'user'    => getenv('DB_USERNAME', 'root'),
+        'pass'    => getenv('DB_PASSWORD', 'root'),
+        'name'    => getenv('DB_DATABASE', 'better-flight'),
         'charset' => 'utf8',
     ],
     
