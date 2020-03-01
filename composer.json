@@ -1,0 +1,14 @@
+{
+    "name": "marufmax/better-flight",
+    "description": "FlightPHP with some batteries",
+    "authors": [
+        {
+            "name": "Maruf Alom",
+            "email": "desk.maruf@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "symfony/var-dumper": "^5.0"
+    }
+}
