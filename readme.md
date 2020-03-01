@@ -13,6 +13,7 @@ I just added some batteries for friendly developer experience.
 - [ ] Doctrine ORM Integration
 - [ ] IoC container integration
 - [ ] TruestedProxy for using it behind a load balancer
+- [ ] FileSystem for files and drivers 
 - [ ] Always returning JSON 
 - [ ] Friendly HTTP requesting library (Maybe ZHTTP)
 - [ ] Unit Testing 
