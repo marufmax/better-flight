@@ -15,6 +15,8 @@ I just added some batteries for friendly developer experience.
 - [ ] TruestedProxy for using it behind a load balancer
 - [ ] FileSystem for files and drivers 
 - [ ] Always returning JSON 
+- [ ] Localization
+- [ ] Swagger/Auto documentation 
 - [ ] Friendly HTTP requesting library (Maybe ZHTTP)
 - [ ] Unit Testing 
 

@@ -4,7 +4,7 @@
  * Bootstrapping application
  */
 
-require __DIR__ . '/../bootstrap/init.php';
+require __DIR__ . '/../bootstrap/app.php';
 
 Flight::before('start', ['bootstrap']);
 
