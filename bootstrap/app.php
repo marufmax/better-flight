@@ -16,4 +16,16 @@ require __DIR__.'/../vendor/autoload.php';
 $dotenv = \Dotenv\Dotenv::createImmutable(__DIR__ . '/../');
 $dotenv->load();
 
-\Flight::set(require '../config/app.php');
+//Flight::set(require __DIR__ . '/../config/app.php');
+require_once __DIR__  . '/../routes/routes.php';
+
+// Controllers
+Flight::path(Flight::get('flight.controllers.path'));
+
+// Models
+Flight::path(Flight::get('flight.models.path'));
+
+// Core
+Flight::path(Flight::get('flight.core.path'));
+
+// Routes 

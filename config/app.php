@@ -3,6 +3,7 @@
 return [
     'flight.controllers.path' => dirname(__DIR__).'/app/Controllers',
     'flight.models.path'      => dirname(__DIR__).'/app/Models',
+    'flight.routes.path'      => dirname(__DIR__).'./routes/',
     'flight.core.path'        => dirname(__DIR__).'/app/Core',
     'flight.log_errors'       => true,
     
